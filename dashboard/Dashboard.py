@@ -12,8 +12,8 @@ st.title("Dashboard Penyewaan Sepeda 🚴‍♂️")
 # Memuat dataset
 @st.cache  # Caching untuk meningkatkan performa
 def load_data():
-    day_df = pd.read_csv('day.csv')  # Ganti dengan path Anda
-    hour_df = pd.read_csv('hour.csv')  # Ganti dengan path Anda
+    day_df = pd.read_csv('dashboard/day.csv')  # Ganti dengan path Anda
+    hour_df = pd.read_csv('dashboard/hour.csv')  # Ganti dengan path Anda
     day_df['dteday'] = pd.to_datetime(day_df['dteday'])  # Mengonversi kolom tanggal
     return day_df, hour_df
 
