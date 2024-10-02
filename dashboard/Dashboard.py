@@ -155,4 +155,4 @@ st.write("Data yang difilter berdasarkan rentang waktu:")
 st.write(filtered_data)
 
 # Copyright
-st.write("Copyright (c) Your Name 2023")
+st.write("Copyright (c) Muchammad Basroil Billah 2024")
