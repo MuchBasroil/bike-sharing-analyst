@@ -16,7 +16,7 @@ events in the city could be detected via monitoring these data.
 1. Clone this repository
 
 ```
-git clone https://https://github.com/MuchBasroil/bike-sharing-analyst.git
+git clone https://https://https://github.com/MuchBasroil/bike-sharing-analyst.git
 ```
 
 2. Install all library
